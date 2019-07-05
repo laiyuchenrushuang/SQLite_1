@@ -2,6 +2,7 @@
 
  * 跑马灯效果
  * 沉浸title
+ * db的创建走onCreate方法需要 getWritableDatabase
  
  关于手机permission denied,好文章https://www.jianshu.com/p/8994014478b4
  
