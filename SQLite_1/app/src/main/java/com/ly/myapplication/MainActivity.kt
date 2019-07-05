@@ -84,7 +84,7 @@ class MainActivity : BaseActivity(), View.OnClickListener {
                     string!!.append("naem = "+list[index].name+"  age = "+list[index].age+"  sex = "+list[index].sex+" zp = "+list[index].zplj+"\n")
                 }
                 tv_result.setText(string.toString())
-
+                cursor.close()
             }
             R.id.bt_modify -> {
                 val values = ContentValues()
